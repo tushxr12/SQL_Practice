@@ -1,3 +1,4 @@
+-- LEAST, GREATEST --
 SELECT 
     LEAST(from_id, to_id) as person1,
     GREATEST(from_id, to_id) as person2,
