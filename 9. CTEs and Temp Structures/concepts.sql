@@ -87,7 +87,7 @@ HAVING total_sales = (
   ) AS t
 )
 
--- CTE Version
+-- CTE Version ---
 WITH salesperson_amount AS
 (
   SELECT 
