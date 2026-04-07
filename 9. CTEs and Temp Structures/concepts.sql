@@ -107,3 +107,4 @@ JOIN max_sales AS t2
 ON t1.total_sales = t2.max_sales_overall;
 
 SELECT connection_id(); -- This can vary between two values as it usually open 2 connections at a time
+SELECT connection_id(), date();
